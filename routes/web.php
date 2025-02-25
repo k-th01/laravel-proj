@@ -14,8 +14,8 @@ Route::get('/about/{name}', function ($name) {
     return view('about');
 });
 
-Route::get('/User', [UserController::class,'getUser']);
-Route::get('/User2/{name}',[UserController::class,'aboutUser']);
+Route::get('/user', [UserController::class,'getUser']);
+Route::get('/user2/{name}',[UserController::class,'aboutUser']);
 
 Route::get('/login',[UserController::class,'adminLogin']);
 
