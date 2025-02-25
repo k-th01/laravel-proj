@@ -38,3 +38,11 @@ body {
 .navbar a:hover svg {
     fill: #1b1533;
 }
+
+.center-title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 55px;
+    min-height: 45vh;
+}
