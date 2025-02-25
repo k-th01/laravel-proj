@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="#home">
+        <a href="/home">
             <svg viewBox="0 0 24 24"><path d="M12 3l10 9h-3v9h-6v-6h-2v6h-6v-9h-3z"/></svg>
             Home
         </a>
@@ -24,5 +24,10 @@
             Contact
         </a>
     </div>
+
+    <div class="center-title">
+        <h1>Welcome to my Homepage.</h1>
+    </div>
+    
 </body>
 </html>
